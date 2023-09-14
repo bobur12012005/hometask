@@ -1,4 +1,4 @@
-let first_answer = prompt('What`s your name?')
+let first_answer = prompt('What`s your name?').toLowerCase()
 if (first_answer.charAt(0) === "a") {
     console.log('Wellcome!');
 } else {
@@ -14,7 +14,7 @@ if (second_answer % 2 === 0) {
 
 let third_answer = prompt('What`s your name')
 if (third_answer.length % 2 === 0) {
-    console.log('четное число')
+    console.log('четное количество')
 } else {
-    console.log('нечетное число');
+    console.log('нечетное количество');
 }
